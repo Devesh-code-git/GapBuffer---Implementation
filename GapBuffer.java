@@ -7,16 +7,6 @@ public class GapBuffer {
 
     public static void main(String args[]) {
         GapBuffer g = new GapBuffer();
-
-        g.insert('A');
-        g.insert('A');
-        g.insert('A');
-        g.insert('A');
-        g.show();
-        g.insert('B');
-        g.insert('C');
-        g.insert('D');
-        g.show();
     }
 
     GapBuffer() {}
@@ -109,4 +99,5 @@ public class GapBuffer {
             this.left();
         }
     }
+
 }
