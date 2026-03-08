@@ -1,7 +1,7 @@
 # GapBuffer---Implementation
 A GapBuffer is a data structure used commonly in text-editors like Emacs. This is my implementation of the data structure in Java and C.
 
-A gapbuffer makes inserting and deleting characters at the cursor very fast and efiicient, and is used a lot in text editors.
+A gapbuffer makes inserting and deleting characters at the cursor very fast and efficient, and is used a lot in text editors.
 
 The data structure is initialized with the gap being as large as the array:
 _ _ _ _ _ _ _ _ _ _, for array size 10
