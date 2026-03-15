@@ -129,8 +129,3 @@ void delete(GapBuffer *g) {
 	free(g->buffer);
 	free(g);
 }
-
-int main() {
-	GapBuffer* g = create(10);
-	return 0;
-}
