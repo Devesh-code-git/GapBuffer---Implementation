@@ -4,11 +4,6 @@ public class GapBuffer {
     private int gap_end = line.length - 1;
     private int gap_size;
 
-
-    public static void main(String args[]) {
-        GapBuffer g = new GapBuffer();
-    }
-
     GapBuffer() {}
 
     public void insert(char c) {
